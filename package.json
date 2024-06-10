@@ -1,6 +1,6 @@
 {
-  "homepage": "http://asishjose/github.io/01-starting-project",
-  "name": "01-starting-project",
+  "homepage": "https://asishjose/github.io/taurus-react-webpage",
+  "name": "taurus-react-webpage",
   "version": "0.0.0",
   "scripts": {
     "predeploy": "npm run build",
@@ -10,12 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "gh-pages": "^6.1.1",
     "vite": "^4.3.9"
   },
   "keywords": [],
