@@ -3,83 +3,63 @@ import componentsImg from './assets/components.png';
 import propsImg from './assets/config.png';
 import jsxImg from './assets/jsx-ui.png';
 import stateImg from './assets/state-mgmt.png';
+import assetImg from './assets/assetver.jpg';
+import softwareImg from './assets/soft.jpg';
+import infraImg from './assets/infra.jpg';
+import staffImg from './assets/staff.jpg';
 
 export const CORE_CONCEPTS = [
   {
     image: componentsImg,
-    title: 'Components',
+    title: 'Software Development',
     description:
-      'The core UI building block - compose the user interface by combining multiple components.',
-  },
-  {
-    image: jsxImg,
-    title: 'JSX',
-    description:
-      'Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.',
+      'Leverage our expertise in crafting custom software solutions that drive innovation and efficiency. From robust web applications to scalable mobile apps, we bring ideas to life with precision and creativity.',
   },
   {
     image: propsImg,
-    title: 'Props',
+    title: 'Hardware Integration',
     description:
-      'Make components configurable (and therefore reusable) by passing input data to them.',
+      'Taurus Solutions excels in seamlessly integrating hardware components, ensuring optimal functionality and performance. We optimize hardware-software interactions to enhance overall system capabilities.',
+  },
+  {
+    image: jsxImg,
+    title: 'Cybersecurity Solutions',
+    description:
+      'Safeguard your digital assets with our state-of-the-art cybersecurity solutions. We employ advanced measures to protect against cyber threats, ensuring the confidentiality and integrity of your data.',
   },
   {
     image: stateImg,
-    title: 'State',
+    title: 'Cloud Services',
     description:
-      'React-managed data which, when changed, causes the component to re-render & the UI to update.',
-  },
-  
+      'Embrace the flexibility and scalability of cloud computing with our tailored cloud services. Whether its migration, optimization, or management, we help you harness the power of the cloud for improved performance.',
+  }
 ];
 
 export const EXAMPLES = {
   components: {
-    title: 'Components',
+    title: 'ASSET VERIFICATION',
+    image: assetImg,
     description:
-      'Components are the building blocks of React applications. A component is a self-contained module (HTML + optional CSS + JS) that renders some output.',
-    code: `
-function Welcome() {
-  return <h1>Hello, World!</h1>;
-}`,
+      'Accurately presented and managed inventory with proper financial records of the company, Gathering evidence for manufacturing or retail-based businesses that stand for a large balance of assets and capitals.',
+    code: ``,
   },
   jsx: {
-    title: 'JSX',
+    title: 'SOFTWARE SERVICES',
     description:
-      'JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript (e.g., it may output dynamic content).',
-    code: `
-<div>
-  <h1>Welcome {userName}</h1>
-  <p>Time to learn React!</p>
-</div>`,
+      'We provide tailored software solutions to meet your business needs. Our experienced developers have expertise in a range of programming languages and technologies to deliver high-quality solutions.',
+    code: ``,
   },
   props: {
-    title: 'Props',
+    title: 'IT INFRASTRUCTURE SERVICES',
     description:
-      'Components accept arbitrary inputs called props. They are like function arguments.',
-    code: `
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
-}`,
+      'Our network infrastructure solutions provide secure and reliable connectivity for your business. Our experts have experience in designing, implementing, and managing complex networks for businesses of all sizes.',
+    code: ``,
   },
   state: {
-    title: 'State',
+    title: 'STAFF AUGMENTATION',
     description:
-      'State allows React components to change their output over time in response to user actions, network responses, and anything else.',
-    code: `
-function Counter() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  function handleClick() {
-    setIsVisible(true);
-  }
-
-  return (
-    <div>
-      <button onClick={handleClick}>Show Details</button>
-      {isVisible && <p>Amazing details!</p>}
-    </div>
-  );
-}`,
+      'Taurus gives you candidates for any position. Seamlessly add members to your team without disrupting your workflow. Our value-based system takes all your needs into account. The staff augmentation service makes sure your company stays on top of staffing issues.',
+    code: ``,
   },
 };
 

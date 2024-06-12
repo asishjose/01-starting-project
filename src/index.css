@@ -121,3 +121,9 @@ main h2 {
 #tab-content code {
   font-size: 1rem;
 }
+
+#examples img {
+  height: 4rem;
+  width: 6rem;
+  object-fit: cover;
+}

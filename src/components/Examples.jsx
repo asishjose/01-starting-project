@@ -13,7 +13,7 @@ export default function Examples() {
     //console.log(selectedTopic);
   }
 
-  let tabContent = <p>Please select a topic.</p>;
+  let tabContent = <p>Click on a service to know more...</p>;
 
   if (selectedTopic) {
     tabContent = (
@@ -28,7 +28,7 @@ export default function Examples() {
   }
 
   return (
-    <Section title="Examples" id="examples">
+    <Section title="Services" id="examples">
       <Tabs
         buttons={
           <>
@@ -36,25 +36,25 @@ export default function Examples() {
               isSelected={selectedTopic === "components"}
               onClick={() => handleSelect("components")}
             >
-              Components
+              ASSET VERIFICATION
             </TabButton>
             <TabButton
               isSelected={selectedTopic === "jsx"}
               onClick={() => handleSelect("jsx")}
             >
-              JSX
+              SOFTWARE SERVICES
             </TabButton>
             <TabButton
               isSelected={selectedTopic === "props"}
               onClick={() => handleSelect("props")}
             >
-              Props
+              IT INFRASTRUCTURE SERVICES
             </TabButton>
             <TabButton
               isSelected={selectedTopic === "state"}
               onClick={() => handleSelect("state")}
             >
-              State
+              STAFF AUGMENTATION
             </TabButton>
           </>
         }
